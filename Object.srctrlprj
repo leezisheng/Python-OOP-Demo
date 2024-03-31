@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <source_groups>
+        <source_group_defec163-341e-4ecd-ad2b-ec94273c10e4>
+            <name>Python Source Group</name>
+            <python_environment_path>G:/miniconda/setup/envs/parallel</python_environment_path>
+            <source_extensions>
+                <source_extension>.py</source_extension>
+            </source_extensions>
+            <source_paths>
+                <source_path>main.py</source_path>
+                <source_path>FileIO.py</source_path>
+                <source_path>Plot.py</source_path>
+                <source_path>Serial.py</source_path>
+            </source_paths>
+            <status>enabled</status>
+            <type>Python Source Group</type>
+        </source_group_defec163-341e-4ecd-ad2b-ec94273c10e4>
+    </source_groups>
+    <version>8</version>
+</config>
