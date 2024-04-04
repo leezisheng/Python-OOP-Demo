@@ -21,6 +21,10 @@ from Serial import SerialClass
 LOG_FORMAT="%(asctime)s-%(levelname)s-%(message)s"
 logging.basicConfig(filename='my.log',level=logging.DEBUG,format=LOG_FORMAT)
 
+# 定义一个ID号非法的异常
+class InvalidIDError(Exception):
+    pass
+
 class SensorClass(SerialClass):
     # 类变量：
     #   RESPOND_MODE -响应模式-0
@@ -35,13 +39,30 @@ class SensorClass(SerialClass):
 
     # 类的初始化
     def __init__(self,port:str = "COM11",id:int = 0,state:int = RESPOND_MODE):
-        # 调用父类的初始化方法，super() 函数将父类和子类连接
-        super().__init__(port)
-        self.sensorvalue = 0
-        self.sensorid    = id
-        self.sensorstate = state
-        print("Sensor Init")
-        logging.info("Sensor Init")
+        try:
+            # 判断输入端口号是否为str类型
+            if type(port) is not str:
+                raise TypeError("InvalidPortError:",port)
+            # 判断ID号是否在0~99之间
+            if id <= 0 or id >= 99:
+                # 触发异常后，后面的代码就不会再执行
+                # 当传递给函数或方法的参数类型不正确或者参数的值不合法时，会引发此异常。
+                raise InvalidIDError("InvalidIDError:",id)
+
+            # 调用父类的初始化方法，super() 函数将父类和子类连接
+            super().__init__(port)
+            self.sensorvalue = 0
+            self.sensorid    = id
+            self.sensorstate = state
+            print("Sensor Init")
+            logging.info("Sensor Init")
+        except TypeError:
+            # 当发生异常时，输出如下语句，提醒用户重新输入端口号
+            print("Input error com, Please try new com number")
+        except InvalidIDError as e:
+            # 当发生异常时，输出如下语句，提醒用户重新输入ID号
+            print("Input error ID, Please try id : 0~99")
+            print(e.args)
 
     @staticmethod
     # 判断传感器ID号是否正确：这里判断ID号是否在0到99之间
@@ -93,7 +114,33 @@ class SensorClass(SerialClass):
         logging.info("Sensor %d recv cmd %d " % (self.sensorid,cmd))
         return cmd
 
+# 表示传感器数据过高的异常
+class InvalidSensorValueError(Exception):
+    def __init__(self,recvvalue,setvalue):
+        super().__init__("Receive Sensor Value is too high")
+        self.recvvalue = recvvalue
+        self.setvalue = setvalue
+    # 计算接收数据和设定数据的误差值
+    def cal_offset(self):
+        offset = self.setvalue - self.recvvalue
+        return offset
+
 class MasterClass(SerialClass,PlotClass):
+    '''
+    MasterClass：该类表示主机类，主要用于接收传感器数据、收发指令等
+
+    具有如下属性：
+        state       —— 表示主机工作状态
+        port        —— 表示主机端口号
+        wintitle    —— 表示窗口标题
+        ... ...
+
+    具有如下方法：
+        StartMaster     —— 开启主机
+        StopMaster      —— 停止主机
+        RecvSensorValue —— 接收传感器数据值
+        ... ...
+    '''
     # 类变量：
     #   BUSY_STATE  -忙碌状态-0
     #   IDLE_STATE  -空闲状态-1
@@ -107,6 +154,7 @@ class MasterClass(SerialClass,PlotClass):
 
     # 类的初始化
     def __init__(self,state:int = IDLE_STATE,port:str = "COM17",wintitle:str="Basic plotting examples",plottitle:str="Updating plot",width:int=1000,height:int=600):
+
         # 分别调用不同父类的__init__方法
         SerialClass.__init__(self,port)
         PlotClass.__init__(self,wintitle,plottitle,width,height)
@@ -127,6 +175,11 @@ class MasterClass(SerialClass,PlotClass):
 
     # 开启主机
     def StartMaster(self):
+        '''
+            StartMaster方法——开启主机
+            调用SerialClass.OpenSerial()方法
+        :return: 无返回值
+        '''
         super().OpenSerial()
         print("START MASTER :"+self.dev.port)
         logging.info("START MASTER :"+self.dev.port)
@@ -146,10 +199,22 @@ class MasterClass(SerialClass,PlotClass):
 
     # 接收传感器数据
     def RecvSensorValue(self):
-        data = super().ReadSerial()
-        print("MASTER RECIEVE DATA : " + str(data))
-        logging.info("MASTER RECIEVE DATA : " + str(data))
-        self.valuequeue.put(data)
+
+        try:
+            # 设定的阈值
+            setvalue = 99
+            data = super().ReadSerial()
+
+            # 如果接收的传感器数据大于阈值
+            if data >= setvalue:
+                raise InvalidSensorValueError(data,setvalue)
+
+            print("MASTER RECIEVE DATA : " + str(data))
+            logging.info("MASTER RECIEVE DATA : " + str(data))
+            self.valuequeue.put(data)
+        except InvalidSensorValueError as e:
+            print("invalid sensor value",e.args)
+            print("value offset is : ",e.cal_offset())
         return data
 
     # 主机发送命令
@@ -173,15 +238,7 @@ class MasterClass(SerialClass,PlotClass):
         logging.info("PLOT UPDATA : " + str(self.value))
 
 if __name__ == "__main__":
-    # 创建数据列表
-    datalist = []
-    m = MasterClass(state = MasterClass.IDLE_STATE,
-                    port = "COM17",
-                    wintitle = "Basic plotting examples",
-                    plottitle = "Updating plot",
-                    width = 1000,
-                    height = 600)
-    m.StartMaster()
-    m.SendSensorCMD(MasterClass.SENDID_CMD)
-    m.RecvSensorID()
-    m.SetUpdate()
+    # 访问MasterClass类的__doc__属性
+    print(MasterClass.__doc__)
+    # 访问MasterClass类中StartMaster方法的__doc__属性
+    print(MasterClass.StartMaster.__doc__)
