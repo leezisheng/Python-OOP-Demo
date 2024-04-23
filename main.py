@@ -12,7 +12,10 @@ import queue
 import random
 # 日志输出相关库
 import logging
+# 引入枚举类
+from enum import Enum
 # 引用自定义模块
+import FileIO
 from FileIO import FileIOClass
 from Plot   import PlotClass
 from Serial import SerialClass
@@ -26,10 +29,15 @@ class InvalidIDError(Exception):
     pass
 
 class SensorClass(SerialClass):
+    '''
+        传感器类，继承自SerialClass
+    '''
     # 类变量：
     #   RESPOND_MODE -响应模式-0
     #   LOOP_MODE    -循环模式-1
-    RESPOND_MODE,LOOP_MODE = (0,1)
+    # RESPOND_MODE,LOOP_MODE = (0,1)
+    # 使用字典创建
+    WORK_MODE = {"RESPOND_MODE":0,"LOOP_MODE":1}
     # 类变量：
     #   START_CMD       - 开启命令      -0
     #   STOP_CMD        - 关闭命令      -1
@@ -38,13 +46,13 @@ class SensorClass(SerialClass):
     START_CMD,STOP_CMD,SENDID_CMD,SENDVALUE_CMD = (0,1,2,3)
 
     # 类的初始化
-    def __init__(self,port:str = "COM11",id:int = 0,state:int = RESPOND_MODE):
+    def __init__(self,port:str = "COM11",id:int = 0,state:int = WORK_MODE["RESPOND_MODE"]):
         try:
             # 判断输入端口号是否为str类型
             if type(port) is not str:
                 raise TypeError("InvalidPortError:",port)
             # 判断ID号是否在0~99之间
-            if id <= 0 or id >= 99:
+            if id < 0 or id > 99:
                 # 触发异常后，后面的代码就不会再执行
                 # 当传递给函数或方法的参数类型不正确或者参数的值不合法时，会引发此异常。
                 raise InvalidIDError("InvalidIDError:",id)
@@ -124,6 +132,13 @@ class InvalidSensorValueError(Exception):
     def cal_offset(self):
         offset = self.setvalue - self.recvvalue
         return offset
+
+# 定义了命令的枚举类
+class CMD(Enum):
+    START_CMD       =   0
+    STOP_CMD        =   1
+    SENDID_CMD      =   2
+    SENDVALUE_CMD   =   3
 
 class MasterClass(SerialClass,PlotClass):
     '''
@@ -238,7 +253,9 @@ class MasterClass(SerialClass,PlotClass):
         logging.info("PLOT UPDATA : " + str(self.value))
 
 if __name__ == "__main__":
-    # 访问MasterClass类的__doc__属性
-    print(MasterClass.__doc__)
-    # 访问MasterClass类中StartMaster方法的__doc__属性
-    print(MasterClass.StartMaster.__doc__)
+    template = '''
+    Class Name : <{0.__name__}>
+    Class Description :  <{0.__doc__}>
+    Class Method and Class Properties : <{0.__dict__}>    
+    '''
+    print(template.format(SensorClass))
