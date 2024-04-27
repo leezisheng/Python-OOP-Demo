@@ -264,21 +264,131 @@ with shelve.open('mydata.db') as shelf:
     age = shelf['age']
     scores = shelf['scores']
 
-print(f'Name: {name}')
-print(f'Age: {age}')
-print(f'Scores: {scores}')
+# print(f'Name: {name}')
+# print(f'Age: {age}')
+# print(f'Scores: {scores}')
+#
+# with shelve.open('mydata.db', writeback=True) as shelf:
+#     # 更新数据
+#     shelf['name'] = 'Bob'
+#     # 删除数据
+#     del shelf['age']
+#     name = shelf['name']
+#     print(name)
+#     try:
+#         age = shelf['age']
+#         print(age)
+#     except:
+#         print("No ages")
 
-with shelve.open('mydata.db', writeback=True) as shelf:
-    # 更新数据
-    shelf['name'] = 'Bob'
-    # 删除数据
-    del shelf['age']
-    name = shelf['name']
-    print(name)
-    try:
-        age = shelf['age']
-        print(age)
-    except:
-        print("No ages")
 
 
+import json
+
+# # 人员信息列表
+# humaninfodic={
+#     'age'   : 18,
+#     'name'  : True,
+#     'gender': 10,
+#     'email' : 11.1,
+# }
+#
+#
+# # 序列化到文件中
+# with open('test.json', 'w') as fp:
+#     json.dump(humaninfodic, fp, indent=4)
+#
+# # 反序列化文件中的内容
+# with open('test.json', 'r') as fp:
+#     dic = json.load(fp)
+#     print(dic)
+
+
+import json
+
+# 定义联系人类
+class Contact:
+    def __init__(self, first, last):
+        # 属性1，first name是名字
+        self.first = first
+        # 属性2，last name是姓氏
+        self.last = last
+    @property
+    def full_name(self):
+        return("{} {}".format(self.first, self.last))
+
+# 自定义序列化编码器类
+class ContactEncoder(json.JSONEncoder):
+    # default 方法检查了我们想要序列化的对象类型
+    def default(self, obj):
+        # 如果是联系人类，我们手动将其转换为字典
+        if isinstance(obj, Contact):
+            return {
+                    # 传递了一个额外的属性来说明这是一个联系人对象
+                    # 因为没有其他办法可以在载入之后知道它的类型
+                    'is_contact': True,
+                    'first': obj.first,
+                    'last': obj.last,
+                    'full': obj.full_name}
+        # 否则，让其父类来处理序列化（假设它是基本类型，json 知道如何处理）
+        return super().default(obj)
+
+# 定义一个JSON文件解码器函数
+def decode_contact(dic):
+    # 写一个函数接受字典为参数
+    # 检查是否包含 is_contact 变量来决定是否将其转换为联系人
+    if dic.get('is_contact'):
+        return Contact(dic['first'], dic['last'])
+    else:
+        return dic
+
+# if __name__ == '__main__':
+#     c = Contact("John", "Smith")
+#     data = json.dumps(c, cls=ContactEncoder)
+#     print(data)
+#     c = json.loads(data, object_hook=decode_contact)
+#     print(c.full_name)
+
+from collections import defaultdict
+
+class StatsList(list):
+    def mean(self):
+        return sum(self) / len(self)
+    def median(self):
+        if len(self) % 2:
+            return self[int(len(self) / 2)]
+        else:
+            idx = int(len(self) / 2)
+            return (self[idx] + self[idx-1]) / 2
+    def mode(self):
+        freqs = defaultdict(int)
+        for item in self:
+            freqs[item] += 1
+        mode_freq = max(freqs.values())
+        modes = []
+        for item, value in freqs.items():
+            if value == mode_freq:
+                modes.append(item)
+            return modes
+
+
+import threading
+import time
+
+
+def thread1():
+    while True:
+        time.sleep(1)
+        print(time.strftime('%H:%M:%S'), 'hahaha')
+
+
+def thread2():
+    while True:
+        time.sleep(2)
+        print(time.strftime('%H:%M:%S'), 'lalala')
+
+
+thread_thred1 = threading.Thread(target=thread1)
+thread_thred1.start()
+thread_thread2 = threading.Thread(target=thread2)
+thread_thread2.start()

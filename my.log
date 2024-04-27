@@ -2574,3 +2574,1504 @@
 2024-04-18 10:53:05,252-INFO-Sensor Init
 2024-04-18 10:53:17,595-INFO-SerialClass init
 2024-04-18 10:53:17,595-INFO-Sensor Init
+2024-04-27 14:17:08,801-INFO-SerialClass init
+2024-04-27 14:17:08,802-INFO-Sensor Init
+2024-04-27 14:18:01,213-INFO-SerialClass init
+2024-04-27 14:18:01,213-INFO-Sensor Init
+2024-04-27 14:18:05,861-INFO-SerialClass init
+2024-04-27 14:18:05,861-INFO-Sensor Init
+2024-04-27 14:19:34,942-INFO-SerialClass init
+2024-04-27 14:19:34,942-INFO-Sensor Init
+2024-04-27 14:20:23,788-INFO-SerialClass init
+2024-04-27 14:20:23,788-INFO-Sensor Init
+2024-04-27 14:58:23,165-INFO-SerialClass init
+2024-04-27 14:58:23,165-INFO-Sensor Init
+2024-04-27 14:58:23,166-INFO-Sensor 0 Init complete : 0
+2024-04-27 14:58:23,167-INFO-SerialClass-OpenSerial
+2024-04-27 14:58:23,167-INFO-Sensor 0 start serial COM11 
+2024-04-27 14:58:23,167-INFO-SerialClass-ReadSerial
+2024-04-27 14:59:08,833-INFO-Sensor 0 recv cmd 1 
+2024-04-27 14:59:08,833-INFO-SerialClass-CloseSerial
+2024-04-27 14:59:08,835-INFO-Sensor 0 close serial COM11 
+2024-04-27 14:59:09,336-INFO-SerialClass-ReadSerial
+2024-04-27 14:59:27,805-INFO-SerialClass init
+2024-04-27 14:59:27,805-INFO-Sensor Init
+2024-04-27 14:59:27,806-INFO-Sensor 0 Init complete : 0
+2024-04-27 14:59:27,807-INFO-SerialClass-OpenSerial
+2024-04-27 14:59:27,807-INFO-Sensor 0 start serial COM11 
+2024-04-27 14:59:27,807-INFO-SerialClass-ReadSerial
+2024-04-27 14:59:59,660-INFO-SerialClass init
+2024-04-27 14:59:59,660-INFO-Sensor Init
+2024-04-27 14:59:59,661-INFO-Sensor 0 Init complete : 0
+2024-04-27 14:59:59,662-INFO-SerialClass-OpenSerial
+2024-04-27 14:59:59,662-INFO-Sensor 0 start serial COM11 
+2024-04-27 14:59:59,662-INFO-SerialClass-ReadSerial
+2024-04-27 15:00:52,284-INFO-SerialClass init
+2024-04-27 15:00:52,284-INFO-Sensor Init
+2024-04-27 15:00:52,286-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:00:52,286-INFO-SerialClass-OpenSerial
+2024-04-27 15:00:52,286-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:00:52,286-INFO-SerialClass-ReadSerial
+2024-04-27 15:01:03,114-INFO-Sensor 0 recv cmd 2222 
+2024-04-27 15:01:03,114-INFO-SerialClass-ReadSerial
+2024-04-27 15:01:08,626-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:01:08,626-INFO-SerialClass-WriteSerial
+2024-04-27 15:01:08,626-INFO-Sensor 0 send id 
+2024-04-27 15:01:08,626-INFO-SerialClass-ReadSerial
+2024-04-27 15:01:12,097-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:01:12,097-INFO-SerialClass-WriteSerial
+2024-04-27 15:01:12,097-INFO-Sensor 0 send id 
+2024-04-27 15:01:12,097-INFO-SerialClass-ReadSerial
+2024-04-27 15:01:13,600-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:01:13,601-INFO-SerialClass-WriteSerial
+2024-04-27 15:01:13,601-INFO-Sensor 0 send id 
+2024-04-27 15:01:13,601-INFO-SerialClass-ReadSerial
+2024-04-27 15:01:21,667-INFO-Sensor 0 recv cmd 1 
+2024-04-27 15:01:21,667-INFO-SerialClass-CloseSerial
+2024-04-27 15:01:21,669-INFO-Sensor 0 close serial COM11 
+2024-04-27 15:01:21,669-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:02,297-INFO-SerialClass init
+2024-04-27 15:02:02,297-INFO-Sensor Init
+2024-04-27 15:02:02,298-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:02:02,299-INFO-SerialClass-OpenSerial
+2024-04-27 15:02:02,299-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:02:02,299-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:09,643-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:09,644-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:09,644-INFO-Sensor 0 send data  12
+2024-04-27 15:02:09,644-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:14,251-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:14,251-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:14,251-INFO-Sensor 0 send data  12
+2024-04-27 15:02:14,251-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:16,819-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:16,819-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:16,819-INFO-Sensor 0 send data  1
+2024-04-27 15:02:16,819-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:17,363-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:17,364-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:17,364-INFO-Sensor 0 send data  -3
+2024-04-27 15:02:17,364-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:17,524-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:17,524-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:17,524-INFO-Sensor 0 send data  -6
+2024-04-27 15:02:17,524-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:17,668-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:17,668-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:17,668-INFO-Sensor 0 send data  0
+2024-04-27 15:02:17,668-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:17,820-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:17,820-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:17,820-INFO-Sensor 0 send data  6
+2024-04-27 15:02:17,820-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:17,995-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:17,995-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:17,995-INFO-Sensor 0 send data  13
+2024-04-27 15:02:17,996-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:18,155-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:18,155-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:18,155-INFO-Sensor 0 send data  5
+2024-04-27 15:02:18,155-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:18,300-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:18,300-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:18,316-INFO-Sensor 0 send data  -4
+2024-04-27 15:02:18,316-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:18,459-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:18,459-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:18,459-INFO-Sensor 0 send data  -7
+2024-04-27 15:02:18,459-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:18,610-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:18,610-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:18,611-INFO-Sensor 0 send data  -3
+2024-04-27 15:02:18,611-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:18,764-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:18,765-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:18,765-INFO-Sensor 0 send data  4
+2024-04-27 15:02:18,765-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:18,908-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:18,908-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:18,908-INFO-Sensor 0 send data  10
+2024-04-27 15:02:18,908-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:19,052-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:19,052-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:19,052-INFO-Sensor 0 send data  7
+2024-04-27 15:02:19,053-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:19,187-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:19,187-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:19,187-INFO-Sensor 0 send data  -1
+2024-04-27 15:02:19,187-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:19,331-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:19,331-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:19,331-INFO-Sensor 0 send data  -6
+2024-04-27 15:02:19,331-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:19,467-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:19,467-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:19,467-INFO-Sensor 0 send data  -5
+2024-04-27 15:02:19,468-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:19,604-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:19,604-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:19,620-INFO-Sensor 0 send data  3
+2024-04-27 15:02:19,620-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:19,731-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:19,731-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:19,731-INFO-Sensor 0 send data  11
+2024-04-27 15:02:19,731-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:19,852-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:19,852-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:19,852-INFO-Sensor 0 send data  10
+2024-04-27 15:02:19,852-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:20,013-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:20,013-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:20,013-INFO-Sensor 0 send data  4
+2024-04-27 15:02:20,013-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:20,165-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:20,166-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:20,166-INFO-Sensor 0 send data  -3
+2024-04-27 15:02:20,166-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:20,307-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:20,307-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:20,307-INFO-Sensor 0 send data  -8
+2024-04-27 15:02:20,307-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:20,452-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:20,452-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:20,452-INFO-Sensor 0 send data  0
+2024-04-27 15:02:20,452-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:20,589-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:20,589-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:20,589-INFO-Sensor 0 send data  11
+2024-04-27 15:02:20,589-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:22,916-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:22,916-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:22,916-INFO-Sensor 0 send data  10
+2024-04-27 15:02:22,916-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:23,023-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:23,023-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:23,039-INFO-Sensor 0 send data  4
+2024-04-27 15:02:23,039-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:23,139-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:23,139-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:23,139-INFO-Sensor 0 send data  -4
+2024-04-27 15:02:23,139-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:23,247-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:23,247-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:23,248-INFO-Sensor 0 send data  -6
+2024-04-27 15:02:23,248-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:23,355-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:23,355-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:23,356-INFO-Sensor 0 send data  -1
+2024-04-27 15:02:23,356-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:23,462-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:23,463-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:23,463-INFO-Sensor 0 send data  10
+2024-04-27 15:02:23,463-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:23,572-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:23,572-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:23,573-INFO-Sensor 0 send data  11
+2024-04-27 15:02:23,573-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:23,685-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:23,685-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:23,686-INFO-Sensor 0 send data  9
+2024-04-27 15:02:23,686-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:23,793-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:23,794-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:23,794-INFO-Sensor 0 send data  -3
+2024-04-27 15:02:23,794-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:23,901-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:23,901-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:23,901-INFO-Sensor 0 send data  -8
+2024-04-27 15:02:23,901-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:24,009-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:24,009-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:24,025-INFO-Sensor 0 send data  -2
+2024-04-27 15:02:24,025-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:24,118-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:24,118-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:24,119-INFO-Sensor 0 send data  4
+2024-04-27 15:02:24,119-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:24,225-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:24,225-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:24,225-INFO-Sensor 0 send data  12
+2024-04-27 15:02:24,226-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:24,340-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:24,341-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:24,341-INFO-Sensor 0 send data  7
+2024-04-27 15:02:24,341-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:24,447-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:24,447-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:24,447-INFO-Sensor 0 send data  0
+2024-04-27 15:02:24,447-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:24,557-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:24,557-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:24,557-INFO-Sensor 0 send data  -6
+2024-04-27 15:02:24,557-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:24,666-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:24,666-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:24,666-INFO-Sensor 0 send data  -3
+2024-04-27 15:02:24,667-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:24,778-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:24,779-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:24,779-INFO-Sensor 0 send data  2
+2024-04-27 15:02:24,779-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:24,888-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:24,888-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:24,888-INFO-Sensor 0 send data  9
+2024-04-27 15:02:24,888-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:24,994-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:24,995-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:24,995-INFO-Sensor 0 send data  9
+2024-04-27 15:02:24,995-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:25,104-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:25,104-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:25,120-INFO-Sensor 0 send data  4
+2024-04-27 15:02:25,120-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:25,215-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:25,215-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:25,216-INFO-Sensor 0 send data  -4
+2024-04-27 15:02:25,216-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:25,323-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:25,323-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:25,323-INFO-Sensor 0 send data  -8
+2024-04-27 15:02:25,323-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:25,431-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:25,431-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:25,431-INFO-Sensor 0 send data  0
+2024-04-27 15:02:25,431-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:25,540-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:25,540-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:25,540-INFO-Sensor 0 send data  10
+2024-04-27 15:02:25,540-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:25,648-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:25,648-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:25,648-INFO-Sensor 0 send data  14
+2024-04-27 15:02:25,648-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:25,762-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:25,762-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:25,763-INFO-Sensor 0 send data  5
+2024-04-27 15:02:25,763-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:25,871-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:25,871-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:25,871-INFO-Sensor 0 send data  -2
+2024-04-27 15:02:25,871-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:25,995-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:25,995-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:25,995-INFO-Sensor 0 send data  -8
+2024-04-27 15:02:25,995-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:26,087-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:26,087-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:26,103-INFO-Sensor 0 send data  -4
+2024-04-27 15:02:26,103-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:26,200-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:26,200-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:26,200-INFO-Sensor 0 send data  4
+2024-04-27 15:02:26,200-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:26,308-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:26,308-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:26,309-INFO-Sensor 0 send data  14
+2024-04-27 15:02:26,309-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:26,416-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:26,416-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:26,416-INFO-Sensor 0 send data  7
+2024-04-27 15:02:26,416-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:26,524-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:26,524-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:26,524-INFO-Sensor 0 send data  1
+2024-04-27 15:02:26,524-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:26,638-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:26,638-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:26,638-INFO-Sensor 0 send data  -8
+2024-04-27 15:02:26,638-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:26,746-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:26,746-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:26,746-INFO-Sensor 0 send data  -7
+2024-04-27 15:02:26,747-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:26,854-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:26,854-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:26,854-INFO-Sensor 0 send data  4
+2024-04-27 15:02:26,854-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:26,963-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:26,963-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:26,963-INFO-Sensor 0 send data  12
+2024-04-27 15:02:26,963-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:27,069-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:27,069-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:27,086-INFO-Sensor 0 send data  10
+2024-04-27 15:02:27,086-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:27,184-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:27,184-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:27,184-INFO-Sensor 0 send data  0
+2024-04-27 15:02:27,184-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:27,291-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:27,291-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:27,291-INFO-Sensor 0 send data  -4
+2024-04-27 15:02:27,291-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:27,399-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:27,399-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:27,399-INFO-Sensor 0 send data  -5
+2024-04-27 15:02:27,399-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:27,509-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:27,509-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:27,509-INFO-Sensor 0 send data  0
+2024-04-27 15:02:27,510-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:27,623-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:27,623-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:27,623-INFO-Sensor 0 send data  8
+2024-04-27 15:02:27,623-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:27,731-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:27,731-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:27,731-INFO-Sensor 0 send data  13
+2024-04-27 15:02:27,731-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:27,838-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:27,838-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:27,838-INFO-Sensor 0 send data  6
+2024-04-27 15:02:27,838-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:27,947-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:27,947-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:27,947-INFO-Sensor 0 send data  -5
+2024-04-27 15:02:27,947-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:28,054-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:28,055-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:28,071-INFO-Sensor 0 send data  -9
+2024-04-27 15:02:28,071-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:28,165-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:28,165-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:28,165-INFO-Sensor 0 send data  -2
+2024-04-27 15:02:28,165-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:28,278-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:28,278-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:28,278-INFO-Sensor 0 send data  7
+2024-04-27 15:02:28,278-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:28,386-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:28,386-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:28,386-INFO-Sensor 0 send data  13
+2024-04-27 15:02:28,386-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:28,495-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:28,496-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:28,496-INFO-Sensor 0 send data  9
+2024-04-27 15:02:28,496-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:28,603-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:28,603-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:28,604-INFO-Sensor 0 send data  -3
+2024-04-27 15:02:28,604-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:28,712-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:28,712-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:28,712-INFO-Sensor 0 send data  -6
+2024-04-27 15:02:28,712-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:28,827-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:28,827-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:28,828-INFO-Sensor 0 send data  -5
+2024-04-27 15:02:28,828-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:28,933-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:28,933-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:28,933-INFO-Sensor 0 send data  5
+2024-04-27 15:02:28,933-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:29,042-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:29,042-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:29,042-INFO-Sensor 0 send data  11
+2024-04-27 15:02:29,042-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:29,149-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:29,149-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:29,165-INFO-Sensor 0 send data  8
+2024-04-27 15:02:29,165-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:29,258-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:29,258-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:29,258-INFO-Sensor 0 send data  0
+2024-04-27 15:02:29,258-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:29,366-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:29,366-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:29,367-INFO-Sensor 0 send data  -9
+2024-04-27 15:02:29,367-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:29,482-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:29,482-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:29,482-INFO-Sensor 0 send data  -7
+2024-04-27 15:02:29,482-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:29,589-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:29,589-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:29,589-INFO-Sensor 0 send data  4
+2024-04-27 15:02:29,590-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:29,698-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:29,698-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:29,698-INFO-Sensor 0 send data  9
+2024-04-27 15:02:29,698-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:29,804-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:29,804-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:29,804-INFO-Sensor 0 send data  10
+2024-04-27 15:02:29,804-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:29,917-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:29,917-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:29,917-INFO-Sensor 0 send data  3
+2024-04-27 15:02:29,918-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:30,028-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:30,028-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:30,028-INFO-Sensor 0 send data  -6
+2024-04-27 15:02:30,028-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:30,135-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:30,135-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:30,152-INFO-Sensor 0 send data  -8
+2024-04-27 15:02:30,152-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:30,245-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:30,245-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:30,245-INFO-Sensor 0 send data  0
+2024-04-27 15:02:30,245-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:30,354-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:30,354-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:30,354-INFO-Sensor 0 send data  7
+2024-04-27 15:02:30,354-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:30,460-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:30,460-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:30,460-INFO-Sensor 0 send data  12
+2024-04-27 15:02:30,460-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:30,575-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:30,575-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:30,575-INFO-Sensor 0 send data  5
+2024-04-27 15:02:30,575-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:30,683-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:30,683-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:30,683-INFO-Sensor 0 send data  -4
+2024-04-27 15:02:30,683-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:30,792-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:30,792-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:30,793-INFO-Sensor 0 send data  -6
+2024-04-27 15:02:30,793-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:30,900-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:30,900-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:30,900-INFO-Sensor 0 send data  -3
+2024-04-27 15:02:30,900-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:31,008-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:31,008-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:31,008-INFO-Sensor 0 send data  4
+2024-04-27 15:02:31,009-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:31,117-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:31,117-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:31,133-INFO-Sensor 0 send data  12
+2024-04-27 15:02:31,133-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:31,225-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:31,225-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:31,225-INFO-Sensor 0 send data  9
+2024-04-27 15:02:31,225-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:31,340-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:31,340-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:31,340-INFO-Sensor 0 send data  0
+2024-04-27 15:02:31,341-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:31,446-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:31,446-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:31,446-INFO-Sensor 0 send data  -6
+2024-04-27 15:02:31,446-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:31,554-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:31,554-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:31,554-INFO-Sensor 0 send data  -5
+2024-04-27 15:02:31,554-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:31,670-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:31,670-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:31,670-INFO-Sensor 0 send data  2
+2024-04-27 15:02:31,670-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:31,778-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:31,778-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:31,779-INFO-Sensor 0 send data  10
+2024-04-27 15:02:31,779-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:31,885-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:31,885-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:31,885-INFO-Sensor 0 send data  10
+2024-04-27 15:02:31,885-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:31,994-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:31,994-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:31,995-INFO-Sensor 0 send data  2
+2024-04-27 15:02:31,995-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:32,103-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:32,103-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:32,103-INFO-Sensor 0 send data  -6
+2024-04-27 15:02:32,103-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:32,212-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:32,212-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:32,228-INFO-Sensor 0 send data  -5
+2024-04-27 15:02:32,228-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:32,325-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:32,325-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:32,325-INFO-Sensor 0 send data  2
+2024-04-27 15:02:32,326-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:32,434-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:32,434-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:32,434-INFO-Sensor 0 send data  12
+2024-04-27 15:02:32,434-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:32,542-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:32,542-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:32,542-INFO-Sensor 0 send data  10
+2024-04-27 15:02:32,542-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:32,667-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:32,667-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:32,667-INFO-Sensor 0 send data  6
+2024-04-27 15:02:32,667-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:32,761-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:32,761-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:32,761-INFO-Sensor 0 send data  -2
+2024-04-27 15:02:32,761-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:32,868-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:32,868-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:32,868-INFO-Sensor 0 send data  -8
+2024-04-27 15:02:32,868-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:32,978-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:32,978-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:32,978-INFO-Sensor 0 send data  -2
+2024-04-27 15:02:32,978-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:33,091-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:33,091-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:33,091-INFO-Sensor 0 send data  6
+2024-04-27 15:02:33,091-INFO-SerialClass-ReadSerial
+2024-04-27 15:02:33,198-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:02:33,198-INFO-SerialClass-WriteSerial
+2024-04-27 15:02:33,214-INFO-Sensor 0 send data  10
+2024-04-27 15:02:33,214-INFO-SerialClass-ReadSerial
+2024-04-27 15:03:47,225-INFO-SerialClass init
+2024-04-27 15:03:47,225-INFO-Sensor Init
+2024-04-27 15:03:47,226-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:03:47,227-INFO-SerialClass-OpenSerial
+2024-04-27 15:03:47,227-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:03:47,227-INFO-SerialClass-ReadSerial
+2024-04-27 15:03:50,622-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:03:50,622-INFO-SerialClass-WriteSerial
+2024-04-27 15:03:50,622-INFO-Sensor 0 send data  10
+2024-04-27 15:03:51,123-INFO-SerialClass-ReadSerial
+2024-04-27 15:03:51,123-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:03:51,123-INFO-SerialClass-WriteSerial
+2024-04-27 15:03:51,123-INFO-Sensor 0 send data  10
+2024-04-27 15:03:51,624-INFO-SerialClass-ReadSerial
+2024-04-27 15:03:51,624-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:03:51,624-INFO-SerialClass-WriteSerial
+2024-04-27 15:03:51,625-INFO-Sensor 0 send data  4
+2024-04-27 15:03:52,126-INFO-SerialClass-ReadSerial
+2024-04-27 15:03:52,126-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:03:52,126-INFO-SerialClass-WriteSerial
+2024-04-27 15:03:52,127-INFO-Sensor 0 send data  -6
+2024-04-27 15:03:52,628-INFO-SerialClass-ReadSerial
+2024-04-27 15:03:52,628-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:03:52,628-INFO-SerialClass-WriteSerial
+2024-04-27 15:03:52,628-INFO-Sensor 0 send data  -7
+2024-04-27 15:03:53,129-INFO-SerialClass-ReadSerial
+2024-04-27 15:03:53,129-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:03:53,129-INFO-SerialClass-WriteSerial
+2024-04-27 15:03:53,129-INFO-Sensor 0 send data  0
+2024-04-27 15:03:53,630-INFO-SerialClass-ReadSerial
+2024-04-27 15:03:53,630-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:03:53,630-INFO-SerialClass-WriteSerial
+2024-04-27 15:03:53,630-INFO-Sensor 0 send data  10
+2024-04-27 15:03:54,132-INFO-SerialClass-ReadSerial
+2024-04-27 15:03:54,133-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:03:54,133-INFO-SerialClass-WriteSerial
+2024-04-27 15:03:54,133-INFO-Sensor 0 send data  12
+2024-04-27 15:03:54,634-INFO-SerialClass-ReadSerial
+2024-04-27 15:03:54,634-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:03:54,634-INFO-SerialClass-WriteSerial
+2024-04-27 15:03:54,634-INFO-Sensor 0 send data  7
+2024-04-27 15:03:55,135-INFO-SerialClass-ReadSerial
+2024-04-27 15:03:55,135-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:03:55,135-INFO-SerialClass-WriteSerial
+2024-04-27 15:03:55,135-INFO-Sensor 0 send data  -2
+2024-04-27 15:03:55,636-INFO-SerialClass-ReadSerial
+2024-04-27 15:03:55,637-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:03:55,637-INFO-SerialClass-WriteSerial
+2024-04-27 15:03:55,637-INFO-Sensor 0 send data  -8
+2024-04-27 15:03:56,138-INFO-SerialClass-ReadSerial
+2024-04-27 15:03:56,138-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:03:56,138-INFO-SerialClass-WriteSerial
+2024-04-27 15:03:56,139-INFO-Sensor 0 send data  -1
+2024-04-27 15:03:56,639-INFO-SerialClass-ReadSerial
+2024-04-27 15:03:56,639-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:03:56,639-INFO-SerialClass-WriteSerial
+2024-04-27 15:03:56,639-INFO-Sensor 0 send data  5
+2024-04-27 15:03:57,140-INFO-SerialClass-ReadSerial
+2024-04-27 15:03:57,140-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:03:57,140-INFO-SerialClass-WriteSerial
+2024-04-27 15:03:57,141-INFO-Sensor 0 send data  14
+2024-04-27 15:03:57,642-INFO-SerialClass-ReadSerial
+2024-04-27 15:03:57,642-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:03:57,642-INFO-SerialClass-WriteSerial
+2024-04-27 15:03:57,642-INFO-Sensor 0 send data  11
+2024-04-27 15:03:58,144-INFO-SerialClass-ReadSerial
+2024-04-27 15:03:58,144-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:03:58,144-INFO-SerialClass-WriteSerial
+2024-04-27 15:03:58,144-INFO-Sensor 0 send data  -2
+2024-04-27 15:03:58,645-INFO-SerialClass-ReadSerial
+2024-04-27 15:03:58,645-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:03:58,645-INFO-SerialClass-WriteSerial
+2024-04-27 15:03:58,646-INFO-Sensor 0 send data  -7
+2024-04-27 15:03:59,147-INFO-SerialClass-ReadSerial
+2024-04-27 15:03:59,148-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:03:59,148-INFO-SerialClass-WriteSerial
+2024-04-27 15:03:59,148-INFO-Sensor 0 send data  -5
+2024-04-27 15:03:59,648-INFO-SerialClass-ReadSerial
+2024-04-27 15:03:59,648-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:03:59,648-INFO-SerialClass-WriteSerial
+2024-04-27 15:03:59,648-INFO-Sensor 0 send data  5
+2024-04-27 15:04:00,149-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:00,149-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:00,149-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:00,149-INFO-Sensor 0 send data  13
+2024-04-27 15:04:00,650-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:00,650-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:00,650-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:00,650-INFO-Sensor 0 send data  11
+2024-04-27 15:04:01,151-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:01,151-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:01,151-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:01,152-INFO-Sensor 0 send data  2
+2024-04-27 15:04:01,653-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:01,653-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:01,653-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:01,653-INFO-Sensor 0 send data  -5
+2024-04-27 15:04:02,155-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:02,155-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:02,155-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:02,155-INFO-Sensor 0 send data  -6
+2024-04-27 15:04:02,656-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:02,657-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:02,657-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:02,657-INFO-Sensor 0 send data  2
+2024-04-27 15:04:03,158-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:03,158-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:03,158-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:03,159-INFO-Sensor 0 send data  11
+2024-04-27 15:04:03,660-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:03,661-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:03,661-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:03,661-INFO-Sensor 0 send data  10
+2024-04-27 15:04:04,162-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:04,162-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:04,162-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:04,162-INFO-Sensor 0 send data  3
+2024-04-27 15:04:04,663-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:04,663-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:04,663-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:04,663-INFO-Sensor 0 send data  -4
+2024-04-27 15:04:05,164-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:05,164-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:05,164-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:05,164-INFO-Sensor 0 send data  -9
+2024-04-27 15:04:05,666-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:05,666-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:05,666-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:05,666-INFO-Sensor 0 send data  0
+2024-04-27 15:04:06,168-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:06,168-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:06,168-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:06,168-INFO-Sensor 0 send data  5
+2024-04-27 15:04:06,669-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:06,669-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:06,669-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:06,670-INFO-Sensor 0 send data  11
+2024-04-27 15:04:07,171-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:07,171-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:07,171-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:07,171-INFO-Sensor 0 send data  7
+2024-04-27 15:04:07,672-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:07,672-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:07,672-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:07,672-INFO-Sensor 0 send data  -3
+2024-04-27 15:04:08,173-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:08,173-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:08,173-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:08,173-INFO-Sensor 0 send data  -8
+2024-04-27 15:04:08,675-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:08,675-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:08,675-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:08,676-INFO-Sensor 0 send data  -4
+2024-04-27 15:04:09,177-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:09,177-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:09,177-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:09,177-INFO-Sensor 0 send data  4
+2024-04-27 15:04:09,679-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:09,680-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:09,680-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:09,680-INFO-Sensor 0 send data  10
+2024-04-27 15:04:10,180-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:10,180-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:10,180-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:10,180-INFO-Sensor 0 send data  11
+2024-04-27 15:04:10,682-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:10,682-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:10,682-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:10,682-INFO-Sensor 0 send data  2
+2024-04-27 15:04:11,183-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:11,183-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:11,183-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:11,183-INFO-Sensor 0 send data  -7
+2024-04-27 15:04:11,684-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:11,684-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:11,684-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:11,684-INFO-Sensor 0 send data  -4
+2024-04-27 15:04:12,185-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:12,185-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:12,185-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:12,185-INFO-Sensor 0 send data  0
+2024-04-27 15:04:12,686-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:12,686-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:12,686-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:12,686-INFO-Sensor 0 send data  10
+2024-04-27 15:04:13,187-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:13,187-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:13,188-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:13,188-INFO-Sensor 0 send data  13
+2024-04-27 15:04:13,689-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:13,690-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:13,690-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:13,690-INFO-Sensor 0 send data  4
+2024-04-27 15:04:14,191-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:14,191-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:14,191-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:14,191-INFO-Sensor 0 send data  -5
+2024-04-27 15:04:14,692-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:14,692-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:14,692-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:14,693-INFO-Sensor 0 send data  -7
+2024-04-27 15:04:15,194-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:15,194-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:15,194-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:15,211-INFO-Sensor 0 send data  0
+2024-04-27 15:04:15,712-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:15,712-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:15,712-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:15,712-INFO-Sensor 0 send data  8
+2024-04-27 15:04:16,214-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:16,214-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:16,214-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:16,214-INFO-Sensor 0 send data  10
+2024-04-27 15:04:16,715-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:16,715-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:16,715-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:16,715-INFO-Sensor 0 send data  7
+2024-04-27 15:04:17,216-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:17,216-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:17,216-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:17,216-INFO-Sensor 0 send data  -4
+2024-04-27 15:04:17,717-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:17,717-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:17,717-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:17,717-INFO-Sensor 0 send data  -9
+2024-04-27 15:04:18,218-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:18,218-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:18,218-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:18,219-INFO-Sensor 0 send data  -4
+2024-04-27 15:04:18,720-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:18,720-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:18,720-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:18,720-INFO-Sensor 0 send data  4
+2024-04-27 15:04:19,221-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:19,221-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:19,221-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:19,222-INFO-Sensor 0 send data  14
+2024-04-27 15:04:19,722-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:19,722-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:19,722-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:19,722-INFO-Sensor 0 send data  10
+2024-04-27 15:04:20,224-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:20,224-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:20,224-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:20,225-INFO-Sensor 0 send data  0
+2024-04-27 15:04:20,726-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:20,726-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:20,726-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:20,727-INFO-Sensor 0 send data  -7
+2024-04-27 15:04:21,227-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:21,227-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:21,227-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:21,227-INFO-Sensor 0 send data  -6
+2024-04-27 15:04:21,729-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:21,729-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:21,729-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:21,729-INFO-Sensor 0 send data  6
+2024-04-27 15:04:22,230-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:22,230-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:22,230-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:22,230-INFO-Sensor 0 send data  13
+2024-04-27 15:04:22,731-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:22,731-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:22,731-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:22,731-INFO-Sensor 0 send data  8
+2024-04-27 15:04:23,232-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:23,232-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:23,232-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:23,232-INFO-Sensor 0 send data  1
+2024-04-27 15:04:23,733-INFO-SerialClass-ReadSerial
+2024-04-27 15:04:23,733-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:04:23,733-INFO-SerialClass-WriteSerial
+2024-04-27 15:04:23,733-INFO-Sensor 0 send data  -7
+2024-04-27 15:06:06,650-INFO-SerialClass init
+2024-04-27 15:06:06,651-INFO-Sensor Init
+2024-04-27 15:06:06,652-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:06:06,652-INFO-SerialClass-OpenSerial
+2024-04-27 15:06:06,652-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:06:06,652-INFO-SerialClass-ReadSerial
+2024-04-27 15:06:13,512-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:06:13,512-INFO-SerialClass-WriteSerial
+2024-04-27 15:06:13,512-INFO-Sensor 0 send data  10
+2024-04-27 15:06:14,013-INFO-SerialClass-ReadSerial
+2024-04-27 15:06:14,121-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:06:14,121-INFO-SerialClass-WriteSerial
+2024-04-27 15:06:14,121-INFO-Sensor 0 send data  12
+2024-04-27 15:06:14,622-INFO-SerialClass-ReadSerial
+2024-04-27 15:06:14,729-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:06:14,730-INFO-SerialClass-WriteSerial
+2024-04-27 15:06:14,730-INFO-Sensor 0 send data  4
+2024-04-27 15:06:15,231-INFO-SerialClass-ReadSerial
+2024-04-27 15:06:15,337-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:06:15,337-INFO-SerialClass-WriteSerial
+2024-04-27 15:06:15,337-INFO-Sensor 0 send data  -2
+2024-04-27 15:06:15,837-INFO-SerialClass-ReadSerial
+2024-04-27 15:06:15,950-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:06:15,950-INFO-SerialClass-WriteSerial
+2024-04-27 15:06:15,950-INFO-Sensor 0 send data  -4
+2024-04-27 15:06:16,452-INFO-SerialClass-ReadSerial
+2024-04-27 15:06:16,558-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:06:16,558-INFO-SerialClass-WriteSerial
+2024-04-27 15:06:16,558-INFO-Sensor 0 send data  0
+2024-04-27 15:06:17,058-INFO-SerialClass-ReadSerial
+2024-04-27 15:06:17,166-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:06:17,167-INFO-SerialClass-WriteSerial
+2024-04-27 15:06:17,167-INFO-Sensor 0 send data  9
+2024-04-27 15:06:17,668-INFO-SerialClass-ReadSerial
+2024-04-27 15:06:17,775-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:06:17,775-INFO-SerialClass-WriteSerial
+2024-04-27 15:06:17,775-INFO-Sensor 0 send data  10
+2024-04-27 15:06:18,276-INFO-SerialClass-ReadSerial
+2024-04-27 15:06:18,382-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:06:18,382-INFO-SerialClass-WriteSerial
+2024-04-27 15:06:18,383-INFO-Sensor 0 send data  5
+2024-04-27 15:06:18,883-INFO-SerialClass-ReadSerial
+2024-04-27 15:06:27,436-INFO-Sensor 0 recv cmd 1 
+2024-04-27 15:06:27,436-INFO-SerialClass-CloseSerial
+2024-04-27 15:06:27,438-INFO-Sensor 0 close serial COM11 
+2024-04-27 15:15:07,160-INFO-SerialClass init
+2024-04-27 15:15:07,160-INFO-Sensor Init
+2024-04-27 15:15:07,161-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:15:07,161-INFO-SerialClass-OpenSerial
+2024-04-27 15:15:07,161-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:15:07,161-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:16,857-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:16,857-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:16,857-INFO-Sensor 0 send id 
+2024-04-27 15:15:17,358-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:21,762-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:21,762-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:21,763-INFO-Sensor 0 send id 
+2024-04-27 15:15:22,264-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:22,372-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:22,372-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:22,372-INFO-Sensor 0 send id 
+2024-04-27 15:15:22,873-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:22,981-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:22,981-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:22,981-INFO-Sensor 0 send id 
+2024-04-27 15:15:23,483-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:23,587-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:23,587-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:23,587-INFO-Sensor 0 send id 
+2024-04-27 15:15:24,088-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:24,201-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:24,201-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:24,201-INFO-Sensor 0 send id 
+2024-04-27 15:15:24,702-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:24,807-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:24,808-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:24,808-INFO-Sensor 0 send id 
+2024-04-27 15:15:25,309-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:25,416-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:25,416-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:25,417-INFO-Sensor 0 send id 
+2024-04-27 15:15:25,918-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:26,025-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:26,025-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:26,025-INFO-Sensor 0 send id 
+2024-04-27 15:15:26,526-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:26,638-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:26,638-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:26,638-INFO-Sensor 0 send id 
+2024-04-27 15:15:27,140-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:27,247-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:27,247-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:27,248-INFO-Sensor 0 send id 
+2024-04-27 15:15:27,748-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:27,855-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:27,855-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:27,855-INFO-Sensor 0 send id 
+2024-04-27 15:15:28,356-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:28,462-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:28,462-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:28,462-INFO-Sensor 0 send id 
+2024-04-27 15:15:28,963-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:29,069-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:29,070-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:29,070-INFO-Sensor 0 send id 
+2024-04-27 15:15:29,572-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:29,684-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:29,684-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:29,684-INFO-Sensor 0 send id 
+2024-04-27 15:15:30,185-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:30,292-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:30,292-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:30,292-INFO-Sensor 0 send id 
+2024-04-27 15:15:30,794-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:30,902-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:30,902-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:30,902-INFO-Sensor 0 send id 
+2024-04-27 15:15:31,403-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:31,507-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:31,507-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:31,507-INFO-Sensor 0 send id 
+2024-04-27 15:15:32,009-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:32,119-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:32,119-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:32,119-INFO-Sensor 0 send id 
+2024-04-27 15:15:32,620-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:32,731-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:32,731-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:32,731-INFO-Sensor 0 send id 
+2024-04-27 15:15:33,232-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:33,339-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:33,339-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:33,339-INFO-Sensor 0 send id 
+2024-04-27 15:15:33,840-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:33,947-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:33,947-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:33,947-INFO-Sensor 0 send id 
+2024-04-27 15:15:34,448-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:34,556-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:34,556-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:34,556-INFO-Sensor 0 send id 
+2024-04-27 15:15:35,057-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:35,170-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:35,170-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:35,171-INFO-Sensor 0 send id 
+2024-04-27 15:15:35,672-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:35,778-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:35,778-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:35,778-INFO-Sensor 0 send id 
+2024-04-27 15:15:36,279-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:36,385-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:36,385-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:36,385-INFO-Sensor 0 send id 
+2024-04-27 15:15:36,887-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:36,994-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:36,994-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:36,994-INFO-Sensor 0 send id 
+2024-04-27 15:15:37,496-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:37,601-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:37,602-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:37,602-INFO-Sensor 0 send id 
+2024-04-27 15:15:38,103-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:38,217-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:38,217-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:38,217-INFO-Sensor 0 send id 
+2024-04-27 15:15:38,718-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:38,824-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:38,824-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:38,824-INFO-Sensor 0 send id 
+2024-04-27 15:15:39,325-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:39,431-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:39,431-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:39,431-INFO-Sensor 0 send id 
+2024-04-27 15:15:39,933-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:40,040-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:40,041-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:40,041-INFO-Sensor 0 send id 
+2024-04-27 15:15:40,542-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:40,650-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:40,650-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:40,650-INFO-Sensor 0 send id 
+2024-04-27 15:15:41,151-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:41,256-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:41,256-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:41,256-INFO-Sensor 0 send id 
+2024-04-27 15:15:41,758-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:41,873-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:41,873-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:41,873-INFO-Sensor 0 send id 
+2024-04-27 15:15:42,374-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:42,481-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:42,482-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:42,482-INFO-Sensor 0 send id 
+2024-04-27 15:15:42,983-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:43,089-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:43,089-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:43,089-INFO-Sensor 0 send id 
+2024-04-27 15:15:43,590-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:43,698-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:43,698-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:43,698-INFO-Sensor 0 send id 
+2024-04-27 15:15:44,199-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:44,304-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:44,304-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:44,304-INFO-Sensor 0 send id 
+2024-04-27 15:15:44,805-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:44,920-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:44,920-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:44,920-INFO-Sensor 0 send id 
+2024-04-27 15:15:45,421-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:45,528-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:45,529-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:45,529-INFO-Sensor 0 send id 
+2024-04-27 15:15:46,030-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:46,137-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:46,137-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:46,137-INFO-Sensor 0 send id 
+2024-04-27 15:15:46,638-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:46,744-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:46,744-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:46,745-INFO-Sensor 0 send id 
+2024-04-27 15:15:47,245-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:47,352-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:47,352-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:47,352-INFO-Sensor 0 send id 
+2024-04-27 15:15:47,854-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:47,963-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:47,963-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:47,963-INFO-Sensor 0 send id 
+2024-04-27 15:15:48,463-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:48,574-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:48,574-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:48,574-INFO-Sensor 0 send id 
+2024-04-27 15:15:49,076-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:49,184-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:49,184-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:49,184-INFO-Sensor 0 send id 
+2024-04-27 15:15:49,685-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:49,791-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:49,791-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:49,791-INFO-Sensor 0 send id 
+2024-04-27 15:15:50,292-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:50,399-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:50,399-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:50,399-INFO-Sensor 0 send id 
+2024-04-27 15:15:50,900-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:51,007-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:51,008-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:51,008-INFO-Sensor 0 send id 
+2024-04-27 15:15:51,509-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:51,634-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:51,634-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:51,634-INFO-Sensor 0 send id 
+2024-04-27 15:15:52,135-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:52,231-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:52,231-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:52,231-INFO-Sensor 0 send id 
+2024-04-27 15:15:52,732-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:52,839-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:52,839-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:52,839-INFO-Sensor 0 send id 
+2024-04-27 15:15:53,340-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:53,449-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:53,449-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:53,449-INFO-Sensor 0 send id 
+2024-04-27 15:15:53,950-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:54,055-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:54,056-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:54,056-INFO-Sensor 0 send id 
+2024-04-27 15:15:54,557-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:54,666-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:54,666-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:54,666-INFO-Sensor 0 send id 
+2024-04-27 15:15:55,167-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:55,278-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:55,278-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:55,278-INFO-Sensor 0 send id 
+2024-04-27 15:15:55,779-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:55,886-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:55,887-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:55,887-INFO-Sensor 0 send id 
+2024-04-27 15:15:56,388-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:56,495-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:56,495-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:56,495-INFO-Sensor 0 send id 
+2024-04-27 15:15:56,996-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:57,103-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:57,103-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:57,104-INFO-Sensor 0 send id 
+2024-04-27 15:15:57,605-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:57,716-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:57,717-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:57,717-INFO-Sensor 0 send id 
+2024-04-27 15:15:58,218-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:58,324-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:58,324-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:58,324-INFO-Sensor 0 send id 
+2024-04-27 15:15:58,825-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:58,932-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:58,933-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:58,933-INFO-Sensor 0 send id 
+2024-04-27 15:15:59,434-INFO-SerialClass-ReadSerial
+2024-04-27 15:15:59,542-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:15:59,542-INFO-SerialClass-WriteSerial
+2024-04-27 15:15:59,542-INFO-Sensor 0 send id 
+2024-04-27 15:16:00,043-INFO-SerialClass-ReadSerial
+2024-04-27 15:16:00,149-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:16:00,149-INFO-SerialClass-WriteSerial
+2024-04-27 15:16:00,149-INFO-Sensor 0 send id 
+2024-04-27 15:22:48,859-INFO-SerialClass init
+2024-04-27 15:22:48,860-INFO-Sensor Init
+2024-04-27 15:22:48,861-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:22:48,861-INFO-SerialClass-OpenSerial
+2024-04-27 15:22:48,861-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:22:48,861-INFO-SerialClass-ReadSerial
+2024-04-27 15:22:49,045-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:22:49,045-INFO-SerialClass-WriteSerial
+2024-04-27 15:22:49,045-INFO-Sensor 0 send id 
+2024-04-27 15:22:49,546-INFO-SerialClass-ReadSerial
+2024-04-27 15:22:49,652-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:22:49,652-INFO-SerialClass-WriteSerial
+2024-04-27 15:22:49,652-INFO-Sensor 0 send id 
+2024-04-27 15:22:50,153-INFO-SerialClass-ReadSerial
+2024-04-27 15:22:50,260-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:22:50,260-INFO-SerialClass-WriteSerial
+2024-04-27 15:22:50,260-INFO-Sensor 0 send id 
+2024-04-27 15:22:50,761-INFO-SerialClass-ReadSerial
+2024-04-27 15:22:50,869-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:22:50,869-INFO-SerialClass-WriteSerial
+2024-04-27 15:22:50,869-INFO-Sensor 0 send id 
+2024-04-27 15:22:51,370-INFO-SerialClass-ReadSerial
+2024-04-27 15:22:51,477-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:22:51,477-INFO-SerialClass-WriteSerial
+2024-04-27 15:22:51,477-INFO-Sensor 0 send id 
+2024-04-27 15:22:51,979-INFO-SerialClass-ReadSerial
+2024-04-27 15:22:52,087-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:22:52,087-INFO-SerialClass-WriteSerial
+2024-04-27 15:22:52,087-INFO-Sensor 0 send id 
+2024-04-27 15:22:52,588-INFO-SerialClass-ReadSerial
+2024-04-27 15:22:52,700-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:22:52,700-INFO-SerialClass-WriteSerial
+2024-04-27 15:22:52,701-INFO-Sensor 0 send id 
+2024-04-27 15:22:53,201-INFO-SerialClass-ReadSerial
+2024-04-27 15:22:53,308-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:22:53,308-INFO-SerialClass-WriteSerial
+2024-04-27 15:22:53,308-INFO-Sensor 0 send id 
+2024-04-27 15:22:53,809-INFO-SerialClass-ReadSerial
+2024-04-27 15:22:53,918-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:22:53,918-INFO-SerialClass-WriteSerial
+2024-04-27 15:22:53,918-INFO-Sensor 0 send id 
+2024-04-27 15:22:54,419-INFO-SerialClass-ReadSerial
+2024-04-27 15:22:54,525-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:22:54,525-INFO-SerialClass-WriteSerial
+2024-04-27 15:22:54,525-INFO-Sensor 0 send id 
+2024-04-27 15:22:55,026-INFO-SerialClass-ReadSerial
+2024-04-27 15:22:55,138-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:22:55,138-INFO-SerialClass-WriteSerial
+2024-04-27 15:22:55,138-INFO-Sensor 0 send id 
+2024-04-27 15:22:55,640-INFO-SerialClass-ReadSerial
+2024-04-27 15:22:55,746-INFO-Sensor 0 recv cmd 2 
+2024-04-27 15:22:55,746-INFO-SerialClass-WriteSerial
+2024-04-27 15:22:55,746-INFO-Sensor 0 send id 
+2024-04-27 15:22:56,248-INFO-SerialClass-ReadSerial
+2024-04-27 15:23:21,438-INFO-SerialClass init
+2024-04-27 15:23:21,439-INFO-Sensor Init
+2024-04-27 15:23:21,440-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:23:21,440-INFO-SerialClass-OpenSerial
+2024-04-27 15:23:21,440-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:23:21,441-INFO-SerialClass-ReadSerial
+2024-04-27 15:23:57,753-INFO-SerialClass init
+2024-04-27 15:23:57,754-INFO-Sensor Init
+2024-04-27 15:23:57,755-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:23:57,755-INFO-SerialClass-OpenSerial
+2024-04-27 15:23:57,755-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:23:57,755-INFO-SerialClass-ReadSerial
+2024-04-27 15:30:06,183-INFO-SerialClass init
+2024-04-27 15:30:06,183-INFO-Sensor Init
+2024-04-27 15:30:06,184-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:30:06,184-INFO-SerialClass-OpenSerial
+2024-04-27 15:30:06,185-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:30:06,185-INFO-SerialClass-ReadSerial
+2024-04-27 15:30:58,960-INFO-SerialClass init
+2024-04-27 15:30:58,960-INFO-Sensor Init
+2024-04-27 15:30:58,961-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:30:58,961-INFO-SerialClass-OpenSerial
+2024-04-27 15:30:58,962-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:30:58,962-INFO-SerialClass-ReadSerial
+2024-04-27 15:31:22,116-INFO-SerialClass init
+2024-04-27 15:31:22,116-INFO-Sensor Init
+2024-04-27 15:31:22,117-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:31:22,117-INFO-SerialClass-OpenSerial
+2024-04-27 15:31:22,117-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:31:22,117-INFO-SerialClass-ReadSerial
+2024-04-27 15:31:29,306-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:31:34,308-INFO-SerialClass-WriteSerial
+2024-04-27 15:31:34,308-INFO-Sensor 0 send data  8
+2024-04-27 15:31:34,308-INFO-SerialClass-ReadSerial
+2024-04-27 15:31:34,308-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:33:40,221-INFO-SerialClass init
+2024-04-27 15:33:40,221-INFO-Sensor Init
+2024-04-27 15:33:40,223-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:33:40,223-INFO-SerialClass-OpenSerial
+2024-04-27 15:33:40,223-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:33:40,223-INFO-SerialClass-ReadSerial
+2024-04-27 15:38:49,829-INFO-SerialClass init
+2024-04-27 15:38:49,829-INFO-Sensor Init
+2024-04-27 15:38:49,830-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:38:49,830-INFO-SerialClass-OpenSerial
+2024-04-27 15:38:49,831-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:38:49,831-INFO-SerialClass-ReadSerial
+2024-04-27 15:39:15,498-INFO-SerialClass init
+2024-04-27 15:39:15,498-INFO-Sensor Init
+2024-04-27 15:39:15,500-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:39:15,500-INFO-SerialClass-OpenSerial
+2024-04-27 15:39:15,500-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:39:15,500-INFO-SerialClass-ReadSerial
+2024-04-27 15:42:22,658-INFO-SerialClass init
+2024-04-27 15:42:22,658-INFO-Sensor Init
+2024-04-27 15:42:22,659-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:42:22,660-INFO-SerialClass-OpenSerial
+2024-04-27 15:42:22,660-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:42:22,660-INFO-SerialClass-ReadSerial
+2024-04-27 15:44:06,637-INFO-SerialClass init
+2024-04-27 15:44:06,637-INFO-Sensor Init
+2024-04-27 15:44:06,638-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:44:06,638-INFO-SerialClass-OpenSerial
+2024-04-27 15:44:06,638-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:44:06,638-INFO-SerialClass-ReadSerial
+2024-04-27 15:44:29,038-INFO-SerialClass init
+2024-04-27 15:44:29,039-INFO-Sensor Init
+2024-04-27 15:44:29,040-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:44:29,040-INFO-SerialClass-OpenSerial
+2024-04-27 15:44:29,040-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:44:29,040-INFO-SerialClass-ReadSerial
+2024-04-27 15:44:44,146-INFO-SerialClass init
+2024-04-27 15:44:44,146-INFO-Sensor Init
+2024-04-27 15:44:44,147-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:44:44,148-INFO-SerialClass-OpenSerial
+2024-04-27 15:44:44,148-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:44:44,148-INFO-SerialClass-ReadSerial
+2024-04-27 15:44:44,648-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:44:45,150-INFO-SerialClass-ReadSerial
+2024-04-27 15:44:45,650-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:44:46,151-INFO-SerialClass-ReadSerial
+2024-04-27 15:44:46,652-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:44:47,153-INFO-SerialClass-ReadSerial
+2024-04-27 15:44:47,653-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:44:48,154-INFO-SerialClass-ReadSerial
+2024-04-27 15:44:48,654-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:44:49,155-INFO-SerialClass-ReadSerial
+2024-04-27 15:44:49,656-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:44:50,157-INFO-SerialClass-ReadSerial
+2024-04-27 15:44:50,657-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:44:51,158-INFO-SerialClass-ReadSerial
+2024-04-27 15:44:51,659-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:44:52,160-INFO-SerialClass-ReadSerial
+2024-04-27 15:44:52,661-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:44:53,162-INFO-SerialClass-ReadSerial
+2024-04-27 15:44:53,663-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:44:54,164-INFO-SerialClass-ReadSerial
+2024-04-27 15:44:54,664-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:44:55,165-INFO-SerialClass-ReadSerial
+2024-04-27 15:44:55,666-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:44:56,166-INFO-SerialClass-ReadSerial
+2024-04-27 15:44:56,666-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:44:57,167-INFO-SerialClass-ReadSerial
+2024-04-27 15:44:57,667-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:44:58,168-INFO-SerialClass-ReadSerial
+2024-04-27 15:44:58,668-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:44:59,169-INFO-SerialClass-ReadSerial
+2024-04-27 15:44:59,669-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:45:00,171-INFO-SerialClass-ReadSerial
+2024-04-27 15:45:00,671-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:45:01,172-INFO-SerialClass-ReadSerial
+2024-04-27 15:45:11,861-INFO-SerialClass init
+2024-04-27 15:45:11,861-INFO-Sensor Init
+2024-04-27 15:45:11,862-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:45:11,862-INFO-SerialClass-OpenSerial
+2024-04-27 15:45:11,863-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:45:11,863-INFO-SerialClass-ReadSerial
+2024-04-27 15:45:12,363-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:45:12,864-INFO-SerialClass-ReadSerial
+2024-04-27 15:45:13,365-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:45:13,867-INFO-SerialClass-ReadSerial
+2024-04-27 15:45:14,367-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:45:14,868-INFO-SerialClass-ReadSerial
+2024-04-27 15:45:15,368-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:45:48,755-INFO-SerialClass init
+2024-04-27 15:45:48,755-INFO-Sensor Init
+2024-04-27 15:45:48,756-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:45:48,756-INFO-SerialClass-OpenSerial
+2024-04-27 15:45:48,756-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:45:48,756-INFO-SerialClass-ReadSerial
+2024-04-27 15:46:29,247-INFO-SerialClass init
+2024-04-27 15:46:29,247-INFO-Sensor Init
+2024-04-27 15:46:29,249-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:46:29,249-INFO-SerialClass-OpenSerial
+2024-04-27 15:46:29,250-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:46:29,250-INFO-SerialClass-ReadSerial
+2024-04-27 15:46:29,750-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:46:30,251-INFO-SerialClass-ReadSerial
+2024-04-27 15:46:30,752-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:46:31,253-INFO-SerialClass-ReadSerial
+2024-04-27 15:46:31,754-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:46:32,255-INFO-SerialClass-ReadSerial
+2024-04-27 15:46:32,756-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:46:33,257-INFO-SerialClass-ReadSerial
+2024-04-27 15:46:33,757-INFO-Sensor 0 recv cmd 0 
+2024-04-27 15:47:16,896-INFO-SerialClass init
+2024-04-27 15:47:16,897-INFO-Sensor Init
+2024-04-27 15:47:16,898-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:47:16,898-INFO-SerialClass-OpenSerial
+2024-04-27 15:47:16,898-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:47:16,898-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:17,399-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:47:17,900-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:18,400-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:47:18,901-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:19,401-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:47:19,902-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:20,403-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:47:20,904-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:28,682-INFO-SerialClass init
+2024-04-27 15:47:28,682-INFO-Sensor Init
+2024-04-27 15:47:28,683-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:47:28,683-INFO-SerialClass-OpenSerial
+2024-04-27 15:47:28,684-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:47:28,684-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:29,184-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:47:29,685-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:30,186-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:47:30,686-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:31,187-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:47:31,688-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:31,689-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:47:31,689-INFO-SerialClass-WriteSerial
+2024-04-27 15:47:31,689-INFO-Sensor 0 send data  -7
+2024-04-27 15:47:32,190-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:32,190-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:47:32,190-INFO-SerialClass-WriteSerial
+2024-04-27 15:47:32,190-INFO-Sensor 0 send data  -6
+2024-04-27 15:47:32,691-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:32,691-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:47:32,691-INFO-SerialClass-WriteSerial
+2024-04-27 15:47:32,691-INFO-Sensor 0 send data  -2
+2024-04-27 15:47:33,192-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:33,192-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:47:33,192-INFO-SerialClass-WriteSerial
+2024-04-27 15:47:33,192-INFO-Sensor 0 send data  8
+2024-04-27 15:47:33,693-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:33,694-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:47:33,694-INFO-SerialClass-WriteSerial
+2024-04-27 15:47:33,694-INFO-Sensor 0 send data  11
+2024-04-27 15:47:34,195-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:34,259-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:47:34,259-INFO-SerialClass-WriteSerial
+2024-04-27 15:47:34,259-INFO-Sensor 0 send data  7
+2024-04-27 15:47:34,760-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:34,868-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:47:34,868-INFO-SerialClass-WriteSerial
+2024-04-27 15:47:34,868-INFO-Sensor 0 send data  0
+2024-04-27 15:47:35,369-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:35,481-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:47:35,481-INFO-SerialClass-WriteSerial
+2024-04-27 15:47:35,481-INFO-Sensor 0 send data  -5
+2024-04-27 15:47:35,982-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:36,089-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:47:36,089-INFO-SerialClass-WriteSerial
+2024-04-27 15:47:36,089-INFO-Sensor 0 send data  -4
+2024-04-27 15:47:36,591-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:36,697-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:47:36,697-INFO-SerialClass-WriteSerial
+2024-04-27 15:47:36,697-INFO-Sensor 0 send data  9
+2024-04-27 15:47:37,198-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:37,304-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:47:37,304-INFO-SerialClass-WriteSerial
+2024-04-27 15:47:37,304-INFO-Sensor 0 send data  10
+2024-04-27 15:47:37,805-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:37,916-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:47:37,916-INFO-SerialClass-WriteSerial
+2024-04-27 15:47:37,916-INFO-Sensor 0 send data  8
+2024-04-27 15:47:38,417-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:38,527-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:47:38,527-INFO-SerialClass-WriteSerial
+2024-04-27 15:47:38,527-INFO-Sensor 0 send data  -2
+2024-04-27 15:47:39,028-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:39,138-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:47:39,138-INFO-SerialClass-WriteSerial
+2024-04-27 15:47:39,138-INFO-Sensor 0 send data  -8
+2024-04-27 15:47:39,639-INFO-SerialClass-ReadSerial
+2024-04-27 15:47:39,744-INFO-Sensor 0 recv cmd 3 
+2024-04-27 15:47:39,745-INFO-SerialClass-WriteSerial
+2024-04-27 15:47:39,745-INFO-Sensor 0 send data  -6
+2024-04-27 15:49:03,826-INFO-SerialClass init
+2024-04-27 15:49:03,826-INFO-Sensor Init
+2024-04-27 15:49:03,827-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:49:03,828-INFO-SerialClass-OpenSerial
+2024-04-27 15:49:03,828-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:49:03,828-INFO-SerialClass-ReadSerial
+2024-04-27 15:49:04,329-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:49:04,830-INFO-SerialClass-ReadSerial
+2024-04-27 15:49:05,330-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:49:05,831-INFO-SerialClass-ReadSerial
+2024-04-27 15:49:06,331-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:49:06,832-INFO-SerialClass-ReadSerial
+2024-04-27 15:49:07,332-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:57:52,407-INFO-SerialClass init
+2024-04-27 15:57:52,407-INFO-Sensor Init
+2024-04-27 15:57:52,409-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:57:52,409-INFO-SerialClass-OpenSerial
+2024-04-27 15:57:52,410-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:57:52,410-INFO-SerialClass-ReadSerial
+2024-04-27 15:57:52,911-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:57:53,412-INFO-SerialClass-ReadSerial
+2024-04-27 15:57:53,912-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:57:54,413-INFO-SerialClass-ReadSerial
+2024-04-27 15:57:54,913-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:57:55,414-INFO-SerialClass-ReadSerial
+2024-04-27 15:57:55,914-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:57:56,415-INFO-SerialClass-ReadSerial
+2024-04-27 15:57:56,915-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:57:57,416-INFO-SerialClass-ReadSerial
+2024-04-27 15:57:57,917-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:57:58,418-INFO-SerialClass-ReadSerial
+2024-04-27 15:57:58,919-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:57:59,420-INFO-SerialClass-ReadSerial
+2024-04-27 15:57:59,921-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:58:00,422-INFO-SerialClass-ReadSerial
+2024-04-27 15:58:00,923-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:58:01,424-INFO-SerialClass-ReadSerial
+2024-04-27 15:58:01,925-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:58:02,426-INFO-SerialClass-ReadSerial
+2024-04-27 15:58:02,927-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:58:03,428-INFO-SerialClass-ReadSerial
+2024-04-27 15:58:03,928-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:58:04,429-INFO-SerialClass-ReadSerial
+2024-04-27 15:58:04,930-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:58:05,431-INFO-SerialClass-ReadSerial
+2024-04-27 15:58:05,932-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:58:06,433-INFO-SerialClass-ReadSerial
+2024-04-27 15:58:06,934-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:58:07,435-INFO-SerialClass-ReadSerial
+2024-04-27 15:58:07,935-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:58:08,436-INFO-SerialClass-ReadSerial
+2024-04-27 15:58:08,937-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:58:09,437-INFO-SerialClass-ReadSerial
+2024-04-27 15:58:09,938-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:58:10,439-INFO-SerialClass-ReadSerial
+2024-04-27 15:58:10,939-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:58:11,440-INFO-SerialClass-ReadSerial
+2024-04-27 15:58:11,941-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:58:12,443-INFO-SerialClass-ReadSerial
+2024-04-27 15:58:12,943-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:58:13,444-INFO-SerialClass-ReadSerial
+2024-04-27 15:58:13,945-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:58:14,446-INFO-SerialClass-ReadSerial
+2024-04-27 15:58:31,655-INFO-SerialClass init
+2024-04-27 15:58:31,656-INFO-Sensor Init
+2024-04-27 15:58:31,657-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:58:31,657-INFO-SerialClass-OpenSerial
+2024-04-27 15:58:31,657-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:58:31,658-INFO-SerialClass-ReadSerial
+2024-04-27 15:58:32,158-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:58:32,660-INFO-SerialClass-ReadSerial
+2024-04-27 15:58:33,160-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:58:33,662-INFO-SerialClass-ReadSerial
+2024-04-27 15:58:34,162-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:58:34,663-INFO-SerialClass-ReadSerial
+2024-04-27 15:58:35,164-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:58:35,666-INFO-SerialClass-ReadSerial
+2024-04-27 15:58:36,167-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:58:36,668-INFO-SerialClass-ReadSerial
+2024-04-27 15:59:25,475-INFO-SerialClass init
+2024-04-27 15:59:25,475-INFO-Sensor Init
+2024-04-27 15:59:25,476-INFO-Sensor 0 Init complete : 0
+2024-04-27 15:59:25,476-INFO-SerialClass-OpenSerial
+2024-04-27 15:59:25,477-INFO-Sensor 0 start serial COM11 
+2024-04-27 15:59:25,479-INFO-SerialClass-ReadSerial
+2024-04-27 15:59:25,980-INFO-Sensor 0 recv cmd -1 
+2024-04-27 15:59:26,482-INFO-SerialClass-ReadSerial
+2024-04-27 15:59:26,983-INFO-Sensor 0 recv cmd -1 

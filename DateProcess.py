@@ -40,7 +40,6 @@ def AverageFilter(value):
 AverageFilter.description = ("The average value filter function realizes the calculation of the average value "
                              "of the sensor sample value for three periods")
 
-
 # # 使用标准类定义数据处理接口
 # class DateProcessInterface(object):
 #     def __init__(self,DateList:List[int],FilterLength:int):
@@ -110,7 +109,6 @@ AverageFilter.description = ("The average value filter function realizes the cal
 class FilterType(Enum):
     AVERAGEFILTER = 0
     LPFFILTER = 1
-
 
 # # 创建一个具体类来继承于DateProcessInterface
 # class DateProcessClass(DateProcessInterface):
@@ -221,7 +219,6 @@ class DateProcessClass():
 
 print(type(DateProcessInterface))
 print(type(DateProcessClass), DateProcessClass.__bases__)
-
 
 if __name__ == '__main__':
     # 创建l的索引列表，主要提供给plot函数作为x轴坐标

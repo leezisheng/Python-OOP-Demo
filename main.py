@@ -19,6 +19,15 @@ import FileIO
 from FileIO import FileIOClass
 from Plot   import PlotClass
 from Serial import SerialClass
+# 并行并发相关
+from threading import Thread
+from threading import Lock
+# 数学计算相关
+import math
+import random
+# 时间操作相关
+import time
+
 
 # 日志设置
 LOG_FORMAT="%(asctime)s-%(levelname)s-%(message)s"
@@ -28,7 +37,7 @@ logging.basicConfig(filename='my.log',level=logging.DEBUG,format=LOG_FORMAT)
 class InvalidIDError(Exception):
     pass
 
-class SensorClass(SerialClass):
+class SensorClass(SerialClass,Thread):
     '''
         传感器类，继承自SerialClass
     '''
@@ -39,11 +48,12 @@ class SensorClass(SerialClass):
     # 使用字典创建
     WORK_MODE = {"RESPOND_MODE":0,"LOOP_MODE":1}
     # 类变量：
+    #   NONE_CMD        - 未接收数据    --1
     #   START_CMD       - 开启命令      -0
     #   STOP_CMD        - 关闭命令      -1
     #   SENDID_CMD      - 发送ID命令    -2
     #   SENDVALUE_CMD   - 发送数据命令   -3
-    START_CMD,STOP_CMD,SENDID_CMD,SENDVALUE_CMD = (0,1,2,3)
+    NONE_CMD,START_CMD,STOP_CMD,SENDID_CMD,SENDVALUE_CMD = (-1,0,1,2,3)
 
     # 类的初始化
     def __init__(self,port:str = "COM11",id:int = 0,state:int = WORK_MODE["RESPOND_MODE"]):
@@ -64,6 +74,8 @@ class SensorClass(SerialClass):
             self.sensorstate = state
             print("Sensor Init")
             logging.info("Sensor Init")
+            # Thread的初始化方法
+            Thread.__init__(self)
         except TypeError:
             # 当发生异常时，输出如下语句，提醒用户重新输入端口号
             print("Input error com, Please try new com number")
@@ -108,9 +120,8 @@ class SensorClass(SerialClass):
         logging.info("Sensor %d send id "%self.sensorid)
 
     # 发送传感器数据
-    def SendSensorValue(self):
-        # 生成[1, 10]内的随机整数
-        data = random.randint(1, 10)
+    def SendSensorValue(self,data):
+        # 发送数据
         super().WriteSerial(str(data))
         print("Sensor %d send data  %d" % (self.sensorid,data))
         logging.info("Sensor %d send data  %d" % (self.sensorid,data))
@@ -121,6 +132,55 @@ class SensorClass(SerialClass):
         print("Sensor %d recv cmd %d " % (self.sensorid,cmd))
         logging.info("Sensor %d recv cmd %d " % (self.sensorid,cmd))
         return cmd
+
+    # 多线程中用以表示线程活动的方法
+    # run 方法中的所有代码（或者在这一方法内部调用的代码）都在一个单独的线程中运行。
+    def run(self):
+        # 声明全局变量，互斥锁
+        global lock
+
+        # 初始化计数变量
+        data_count = 0
+        # 初始化传感器
+        self.InitSensor()
+        # 开启传感器
+        self.StartSensor()
+
+        while True:
+            # 生成数据
+            data_count  = data_count + 1
+            signal      = math.sin(data_count) * 10
+            noise       = random.uniform(0, 5)
+            data        = int(signal + noise)
+
+            # 获取互斥锁
+            lock.acquire()
+
+            # 接收命令
+            cmd = self.RecvMasterCMD()
+
+            # 根据命令进行相关操作
+            if cmd == SensorClass.STOP_CMD:
+                # 如果接收到停止命令，停止传感器
+                self.StopSensor()
+                # 输出提示信息
+                print("Sensor stop work !!!")
+                return
+            elif cmd == SensorClass.SENDID_CMD:
+                # 如果接收到发送ID命令，发送传感器ID号
+                self.SendSensorID()
+            elif cmd == SensorClass.SENDVALUE_CMD:
+                # 如果接收到发送数据命令，发送数据
+                self.SendSensorValue(data)
+            elif cmd == SensorClass.NONE_CMD:
+                # 如果没有接收到指令
+                print("Not Recv cmd!!!")
+
+            # 释放互斥锁
+            lock.release()
+            # 延时0.5s
+            time.sleep(0.5)
+
 
 # 表示传感器数据过高的异常
 class InvalidSensorValueError(Exception):
@@ -214,7 +274,6 @@ class MasterClass(SerialClass,PlotClass):
 
     # 接收传感器数据
     def RecvSensorValue(self):
-
         try:
             # 设定的阈值
             setvalue = 99
@@ -253,9 +312,17 @@ class MasterClass(SerialClass,PlotClass):
         logging.info("PLOT UPDATA : " + str(self.value))
 
 if __name__ == "__main__":
-    template = '''
-    Class Name : <{0.__name__}>
-    Class Description :  <{0.__doc__}>
-    Class Method and Class Properties : <{0.__dict__}>    
-    '''
-    print(template.format(SensorClass))
+    # 创建一个互斥锁
+    lock = Lock()
+    # 初始化线程
+    s_thread = SensorClass(port = "COM11",id = 0,state = SensorClass.WORK_MODE["RESPOND_MODE"])
+    # 开启线程
+    s_thread.start()
+
+    while True:
+        # 获取互斥锁
+        lock.acquire()
+        # 打印信息
+        print("Multi threaded work，This is the main thread for creating and running")
+        # 释放互斥锁
+        lock.release()

@@ -34,6 +34,8 @@ class SerialClass:
         self.dev.bytesize    = devbytesize
         self.dev.parity      = devparity
         self.dev.stopbits    = devstopbits
+        # 设置timeout超时时间
+        self.dev.timeout     = 0.5
         # 表示串口设备的状态-打开或者关闭
         # 初始化时为关闭
         self.__devstate      = False
@@ -65,13 +67,19 @@ class SerialClass:
         print("SerialClass-ReadSerial")
         logging.info("SerialClass-ReadSerial")
         if self.__devstate:
-            # 阻塞方式读取
+            # 未设置timeout时，按照阻塞方式读取
+            # 设置timeout时，等到超时到期并返回在此之前收到的所有字节
             # 按行读取
             data = self.dev.readline()
-            # 收到为二进制数据
-            # 用utf-8编码将二进制数据解码为unicode字符串
-            # 字符串转为int类型
-            data = int(data.decode('utf-8', 'replace'))
+            # 如果接收到字节的情况下，进行处理
+            if data != b'':
+                # 收到为二进制数据
+                # 用utf-8编码将二进制数据解码为unicode字符串
+                # 字符串转为int类型
+                data = int(data.decode('utf-8', 'replace'))
+            # 否则，设置data为-1
+            else:
+                data = -1
             return data
 
     # 串口写入

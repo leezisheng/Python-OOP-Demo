@@ -70,3 +70,4 @@ class FileIOClass:
         :return: None
         '''
         self.csvFile.close()
+
