@@ -372,23 +372,38 @@ class StatsList(list):
             return modes
 
 
+# !/usr/bin/python
+# -*- coding: UTF-8 -*-
+
 import threading
 import time
 
 
-def thread1():
-    while True:
-        time.sleep(1)
-        print(time.strftime('%H:%M:%S'), 'hahaha')
+# 为线程定义一个函数
+def print_time(threadName, delay):
+    count = 0
+    while count < 5:
+        time.sleep(delay)
+        count += 1
+        print("%s: %s" % (threadName, time.ctime(time.time())))
+
+# 创建两个线程
+try:
+    threading.start_new_thread(print_time, ("Thread-1", 2,))
+    threading.start_new_thread(print_time, ("Thread-2", 4,))
+except:
+    print("Error: unable to start thread")
+
+while 1:
+    pass
 
 
-def thread2():
-    while True:
-        time.sleep(2)
-        print(time.strftime('%H:%M:%S'), 'lalala')
 
 
-thread_thred1 = threading.Thread(target=thread1)
-thread_thred1.start()
-thread_thread2 = threading.Thread(target=thread2)
-thread_thread2.start()
+
+
+
+
+
+
+

@@ -12,6 +12,7 @@
                 <source_path>FileIO.py</source_path>
                 <source_path>Plot.py</source_path>
                 <source_path>Serial.py</source_path>
+                <source_path>DateProcess.py</source_path>
             </source_paths>
             <status>enabled</status>
             <type>Python Source Group</type>

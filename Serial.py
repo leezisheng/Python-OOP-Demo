@@ -28,17 +28,19 @@ class SerialClass:
                  devparity  :str = serial.PARITY_NONE,
                  devstopbits:int = serial.STOPBITS_ONE):
         # 直接传入serial.Serial()类
-        self.dev             = serial.Serial()
-        self.dev.port        = devport
-        self.dev.baudrate    = devbaudrate
-        self.dev.bytesize    = devbytesize
-        self.dev.parity      = devparity
-        self.dev.stopbits    = devstopbits
-        # 设置timeout超时时间
-        self.dev.timeout     = 0.5
+        self.dev                = serial.Serial()
+        self.dev.port           = devport
+        self.dev.baudrate       = devbaudrate
+        self.dev.bytesize       = devbytesize
+        self.dev.parity         = devparity
+        self.dev.stopbits       = devstopbits
+        # 设置读取timeout超时时间
+        self.dev.timeout        = 0.3
+        # 设置写入timeout超时时间
+        self.dev.write_timeout  = 0.3
         # 表示串口设备的状态-打开或者关闭
         # 初始化时为关闭
-        self.__devstate      = False
+        self.__devstate         = False
 
         print("SerialClass init")
         logging.info("SerialClass init")

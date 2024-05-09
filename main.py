@@ -22,12 +22,12 @@ from Serial import SerialClass
 # 并行并发相关
 from threading import Thread
 from threading import Lock
+from multiprocessing import Process
 # 数学计算相关
 import math
 import random
 # 时间操作相关
 import time
-
 
 # 日志设置
 LOG_FORMAT="%(asctime)s-%(levelname)s-%(message)s"
@@ -39,7 +39,7 @@ class InvalidIDError(Exception):
 
 class SensorClass(SerialClass,Thread):
     '''
-        传感器类，继承自SerialClass
+        传感器类，继承自SerialClass\Thread
     '''
     # 类变量：
     #   RESPOND_MODE -响应模式-0
@@ -149,8 +149,11 @@ class SensorClass(SerialClass,Thread):
         while True:
             # 生成数据
             data_count  = data_count + 1
+            # 原始信号
             signal      = math.sin(data_count) * 10
+            # 模拟噪声
             noise       = random.uniform(0, 5)
+            # 最终数据
             data        = int(signal + noise)
 
             # 获取互斥锁
@@ -180,7 +183,6 @@ class SensorClass(SerialClass,Thread):
             lock.release()
             # 延时0.5s
             time.sleep(0.5)
-
 
 # 表示传感器数据过高的异常
 class InvalidSensorValueError(Exception):
@@ -312,17 +314,4 @@ class MasterClass(SerialClass,PlotClass):
         logging.info("PLOT UPDATA : " + str(self.value))
 
 if __name__ == "__main__":
-    # 创建一个互斥锁
-    lock = Lock()
-    # 初始化线程
-    s_thread = SensorClass(port = "COM11",id = 0,state = SensorClass.WORK_MODE["RESPOND_MODE"])
-    # 开启线程
-    s_thread.start()
-
-    while True:
-        # 获取互斥锁
-        lock.acquire()
-        # 打印信息
-        print("Multi threaded work，This is the main thread for creating and running")
-        # 释放互斥锁
-        lock.release()
+    pass

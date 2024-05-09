@@ -207,7 +207,7 @@ class DateProcessClass():
             self.DateList[index] = average
         # 计算完成后将TempList中元素清零
         self.TempList = [0] * (self.FilterLength)
-        return self.DateList
+        return average,self.DateList
 
     def DateCalMax(self) -> int:
         max_value = max(self.DateList)
