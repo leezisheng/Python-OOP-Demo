@@ -22,6 +22,8 @@ import pyqtgraph as pg
 from pyqtgraph.Qt import QtCore
 # 使用typing模块提供的复合注解功能
 from typing import List
+# 文件读写相关库
+import csv
 
 # 主机多进程类
 class MasterProcess(Process):
@@ -154,6 +156,8 @@ class MasterProcess(Process):
 
         # 运行计数变量
         count = 0
+        # 文件保存索引计数变量
+        index = 0
 
         # 打开串口
         self.StartMasterSerial()
@@ -172,7 +176,7 @@ class MasterProcess(Process):
         self.lock.release()
 
         while True:
-            if count == 10:
+            if count == 9:
                 maxvalue = self.dataprocessobj.DateCalMax()
                 minvalue = self.dataprocessobj.DateCalMin()
                 self.lock.acquire()
