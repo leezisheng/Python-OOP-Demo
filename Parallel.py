@@ -22,8 +22,7 @@ import pyqtgraph as pg
 from pyqtgraph.Qt import QtCore
 # 使用typing模块提供的复合注解功能
 from typing import List
-# 文件读写相关库
-import csv
+
 
 # 主机多进程类
 class MasterProcess(Process):
